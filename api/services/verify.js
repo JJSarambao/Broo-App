@@ -2,7 +2,7 @@ require("dotenv").config()
 
 const User = require("../model/users")
 const { generateKey } = require("./generateRandomKey")
-const sendmail = require("../email/emailer").sendmail
+// const sendmail = require("../email/emailer").sendmail
 const raise = require("./raise")
 const getDate = require("./datetime").getDate
 
